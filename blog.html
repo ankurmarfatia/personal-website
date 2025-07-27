@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Ankur Marfatia</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-brand">
+                <h1>Ankur Marfatia</h1>
+            </div>
+            <button class="nav-toggle" onclick="toggleMenu()">☰</button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="blog.html" class="active">Blog</a></li>
+                <li><a href="library.html">Library</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="blog-section">
+            <h2>My Blog</h2>
+            <div class="blog-posts">
+                <article class="blog-post">
+                    <h3><a href="blog/cathedral-basilica-belltower.html">The Cathedral, Basilica, and Belltower</a></h3>
+                    <p class="post-date">Published: [Date]</p>
+                    <p class="post-excerpt">A brief excerpt or description of your blog post content...</p>
+                </article>
+                
+                <article class="blog-post">
+                    <h3><a href="#">Sample Blog Post Title</a></h3>
+                    <p class="post-date">Published: [Date]</p>
+                    <p class="post-excerpt">Another blog post excerpt to give readers a preview of the content...</p>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

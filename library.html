@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library - Ankur Marfatia</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-brand">
+                <h1>Ankur Marfatia</h1>
+            </div>
+            <button class="nav-toggle" onclick="toggleMenu()">☰</button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="library.html" class="active">Library</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="library-section">
+            <h2>My Library</h2>
+            <p>A collection of books, articles, and resources that have influenced my thinking and work.</p>
+            
+            <div class="library-categories">
+                <div class="category">
+                    <h3>Currently Reading</h3>
+                    <div class="book-item">
+                        <h4>Book Title</h4>
+                        <p>Author Name</p>
+                        <p class="book-description">Brief description or your thoughts on the book...</p>
+                    </div>
+                </div>
+
+                <div class="category">
+                    <h3>Recommended Books</h3>
+                    <div class="book-item">
+                        <h4>Book Title</h4>
+                        <p>Author Name</p>
+                        <p class="book-description">Why you recommend this book...</p>
+                    </div>
+                    <div class="book-item">
+                        <h4>Another Book Title</h4>
+                        <p>Author Name</p>
+                        <p class="book-description">Your recommendation and key takeaways...</p>
+                    </div>
+                </div>
+
+                <div class="category">
+                    <h3>Useful Resources</h3>
+                    <div class="resource-item">
+                        <h4><a href="#" target="_blank">Resource Title</a></h4>
+                        <p>Description of the resource and why it's valuable...</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

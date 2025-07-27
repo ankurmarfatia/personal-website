@@ -1,0 +1,104 @@
+ANKUR SUSHIL MARFATIA
+Marietta, GA | 646 515 2705 | asmarfatia@gmail.com 
+www.linkedin.com/in/ankurmarfatia/ 
+
+	SENIOR ENGINEERING MANAGER
+
+Leading engineering teams to develop and maintain scalable, high-availability systems in a cloud computing environment  
+
+Analytical people and project leader with 20+ years of progressive experience that encompasses, software development, cloud computing, and DevSecOps, including 8+ years of leadership and 5+ years of direct people management. Leverage expertise in Amazon Web Services (AWS), Java, FinOps, Agile, and CI/CD to overcome technical challenges, automate manual functions, identify and close technology gaps, mitigate risks, save costs, and improve engagement. Manager of managers who nurtures a culture of collaboration, mutual respect, and knowledge sharing; supportive leader, encouraging teams to collaborate, learn, and follow unconventional paths to find solutions. Embrace opportunities to learn new technologies and processes. 
+
+	AREAS OF EXPERTISE
+
+•	Project Lifecycle Management
+•	Software Engineering Practices
+•	Technical and Product Strategy
+•	Budgeting and Cost Management
+•	Strategic Planning/Quality Standards
+•	Product Management	•	Project Prioritization and Delivery
+•	Software Development Life Cycle
+•	Continuous Improvement
+•	Customer Experience and Empathy
+•	Technical Vision
+•	Root Cause Analysis	•	Operational Excellence
+•	Team Management
+•	Training, Coaching, Mentorship
+•	Performance Management
+•	Agile Methodology
+•	Fluent: English, Gujarati, & Hindi
+Technology: Amazon Web Services (AWS), OpenShift, Kubernetes, Docker, Java, Python, C/C++, JavaScript, 
+SQL, MySQL, NoSQL, HTML, XML, JSP, Servlets, Struts, J2EE, Tomcat, JBoss, WebSphere, Eclipse, Visio, 
+Jenkins, Tekton, GitLab CI, AWS CodePipeline, Jira, Prometheus, Grafana, Sumo Logic, Dynatrace
+
+	PROFESSIONAL EXPERIENCE
+
+Delta Air Lines – Atlanta, GA	May 2004 – Present 
+IT Manager (Retail Application), Aug 2023 – Present 
+Directed a technology project portfolio, including 35-40 microservices. Delivered APIs into production, adding functionality to internal and external customer-facing technologies. Oversee order services and APIs handling all online sales, to include flights, seats, bags, and in-flight Wi-fi. Supervise a team of 21 software development engineers, software testing engineers, technical product engineers, and site reliability engineers – both full-time and contractors – in Atlanta and India. Direct teams in maintaining system stability. Connect with business and technical stakeholders to gather requirements and understand user expectations, then lead solution development to fulfill user expectations.
+•	Delivered 70% year-over-year growth in business and application usage and positioned Delta as one of the US’s top 5 retailers.
+•	Spearheaded design, development, and maintenance of AWS and Java cloud-based distributed microservices for transition from on-prem to the cloud. Saved 30% in cloud-related costs while enhancing security, scalability, and developer productivity.
+•	Leveraged FinOps to visualize and analyze AWS cloud costs; reduced these costs by 50%, saving $5M.
+•	Provided career path development and coaching to team members; over the last 4-5 years, 4 team members earned promotions, whereas only 2% of the Delta workforce typically receives promotions each year.
+•	Increased delivery velocity over time, as teams became comfortable with new processes; collaborated across teams to organize configuration and release management practices. Reduced errors, increased confidence in accuracy of last-minute updates, and improved delivery metrics by 60%.
+•	Nominated for Delta Chairman’s Club for each of last 8 years for upholding the company’s values and elevating its people. 
+
+IT Manager (Developer Productivity), Oct 2020 – Jul 2023
+Implemented enterprise-wide tools & technologies to achieve efficiency and productivity goals. Presented on project progress and emerging technologies to executives and business/IT leaders. Directed a team of 40 DevSecOps specialists, software testers, system engineers, and API designers in Atlanta, Minnesota, and India.
+•	Collaborated with the application security team to identify vulnerabilities in processes and pipelines; defined and executed a DevSecOps technical roadmap for development that integrated security into the CI/CD pipeline. 
+o	Ensured team members understood typical sources of risk. Boosted deployment efficiency by 50% by reducing time for remediation with just-in-time fixes and automated feedback.
+•	Led biweekly learning sessions, accelerating upskilling by 30% during the digital transformation.
+•	Shortened speed to market by meeting goal of delivering features within one sprint. 
+
+Development Practice Leader, Dec 2017 – Sep 2020
+Led and influenced 1,200 software development engineers and DevSecOps engineers who supported 800 applications across the enterprise; defined new standards for development practices and productivity. Orchestrated modernization of legacy applications and developed proposals for technology adoption. Organized and led weekly training and coaching sessions on new tools and technologies, ensuring all team members understood functionality and alignment with Delta’s vision. Researched and documented solution architecture best practices and industry standards. Met with vendors to source solutions for specific functions.
+•	Spearheaded enterprise-wide application modernization from web servers to Platform as a Service (PaaS), hosted with AWS and OpenShift and using Kubernetes and Docker for containerization. Oversaw architecture, design, and implementation of cloud-native solutions; improved system availability and performance by 100%.
+•	Transitioned from manual processes to using DevSecOps pipelines for automation of testing and vulnerability scanning.
+•	Held a week-long IT hackathon to encourage new technology adoption. Brought in vendors to lead workshops and answer individual questions. 
+•	Promoted inner source projects, which enabled cross-functional IT teams to collaborate on common problems; teams built pipelines and monitoring tools that laid the foundation for future initiatives.
+•	Implemented AWS CDF for infrastructure provisioning, driving 60% improvement in deployment efficiency while enabling consistency and repeatability in infrastructure setup.
+•	Recorded best-practice videos and partnered with IT Learning to build an online training video library as a resource for teams throughout their transformation journeys. 
+•	Attended technology conferences and sought out resources to facilitate the best use of DevSecOps within the development practice. Led learning sessions for multiple teams, guiding them to develop pipelines for automation.
+o	Handled change management with principal architects to gain their buy-in.
+o	Automated numerous manual processes, using Ansible, Jenkins, and Docker containers.
+o	Created and led a small team to transition cache of applications to DevSecOps, saving significant time.
+
+Project Architect, Apr 2011 – Dec 2017
+Provided leadership and critical contributions to complex products on the delta.com enterprise e-commerce website. Collaborated across functions to define, roadmap, and execute high-profile revenue-generating initiatives. Facilitated knowledge sharing across development teams, functions, and project portfolios. 
+•	Built functionality that enabled customer purchase of priority boarding, in-flight Wi-fi, miles, seat selection, and other incentives before their arrival at the airport. Utilized Java, Struts, and SOAP services.
+o	Obtained sign-off from 17 teams across the enterprise for design, pricing, services offered, and money collection processes. Spearheaded integration with Delta systems to enable revenue recognition.
+o	Increased Delta’s revenue by up to $2M/month immediately and generated more than $17M in ancillary revenue throughout lifecycle.
+•	Designed and developed new Spring Java applications to pull messages from SQL and NoSQL databases and transmit to customers to communicate flight changes and display new information on their online itineraries.
+•	Developed system that saved $1M in vendor costs by insourcing ability to offer car rentals to customers based on itineraries.
+•	Established Agile-friendly methods of measuring developer productivity through various metrics, such as time to new developers’ first contribution and amount of code written per month; utilized data to identify improvement opportunities.
+
+Senior Developer, Jun 2007 – May 2011
+Collaborated across teams to design systems within established architecture. Contributed to development of mission-critical applications, utilizing Java and Spring frameworks. Defined requirements and created development and test plans; identified opportunities to upgrade technologies and processes. Prepared logical, physical, and conceptual architectural design documents. 
+•	Collaborated with other developers to build a system that handled irregular operations, such as delays or cancellations, and enabled customers to choose new flights when original travel plans were disrupted.
+•	Designed modules for design/knowledge transfer to offshore (India) developers; provided technical guidance and performed code reviews of offshore deliverables. 
+•	Earned ScrumMaster certification and facilitated Scrum ceremonies, including sprint planning, review, and retrospectives. 
+
+Onboarded at Delta as a Java Developer for solutions such as the customer notification system.
+Contracted through Makro Technologies (2004 – 2011) and TEK Systems (2011 – 2015). Hired at Delta permanently in Feb 2015. 
+
+
+	EDUCATION AND PROFESSIONAL DEVELOPMENT
+SUNY, The State University of New York – Albany, NY | Master’s Degree: Master of Arts in Computer Science
+University of Mumbai – Mumbai, India | Bachelor’s Degree: Bachelor of Engineering in Computer Science
+
+FinOps Foundation, Introduction to FinOps, Aug 2024
+edX, Introduction to Data Science with Python, Aug 2024
+IBM, Enterprise Design Thinking Practitioner, Feb 2021
+Amazon Web Services (AWS), AWS Certified Cloud Practitioner and Certified Solutions Architect – Associate, Jun 2020 (expired)
+Scrum Alliance D-A-CH-e.V., Certified Scrum Developer and Certified ScrumMaster, Jun 2016 (expired)
+
+	SPEAKING ENGAGEMENTS
+Marfatia, A. (2022, May). Turning an enterprise to a learning community. DevOpsDays Geneva. (Also presented at Atlanta Developer Conference, 2022, Sep; and ADDO, 2022, Nov) https://devopsdays.org/events/2022-geneva/program/ankur-marfatia
+Heba, C., & Marfatia, A. (2021, September 7). Building mobs to disrupt silos [Workshop]. DevOpsDays Zürich 2021, Winterthur, Switzerland. https://devopsdays.org/events/2021-zurich/program/
+Marfatia, A., & Kirby, L. (2020, August 26). Remote mobbing and inner-source during the pandemic using GitLab [Conference session]. GitLab Commit 2020 (Virtual). https://gitlabcommitvirtual2020.sched.com/event/
+Marfatia, A. (2019, October 15). Collaborative working with mob programming [Conference presentation]. APIOps Meetup Atlanta 2019, Atlanta, GA.
+
+	VOLUNTEER EXPERIENCE
+Delta Air Lines, DE&I Council (Workstream Lead 2024), 2023 – Present 
+Delta Medallion Toastmasters (VP of Education), 2023 – Present 
+Chinmaya Mission Alpharetta (Board Member), 2024 – Present  
+Delta Air Lines, SheLeadsIT (Co-chair), 2021 – 2022 
