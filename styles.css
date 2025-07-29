@@ -60,7 +60,9 @@ body {
 }
 
 .hero {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('images/IMG_5296.jpg');
+    background-size: cover;
+    background-position: center;
     color: white;
     min-height: 80vh;
     display: flex;
@@ -565,15 +567,66 @@ body {
     font-size: 0.8rem;
 }
 
+.blog-section {
+    background: linear-gradient(to bottom, #f7f3e9 0%, #f0ebe0 100%);
+    background-image: 
+        repeating-linear-gradient(
+            transparent,
+            transparent 24px,
+            rgba(212, 175, 55, 0.3) 24px,
+            rgba(212, 175, 55, 0.3) 26px
+        ),
+        linear-gradient(
+            90deg,
+            #e74c3c 0px,
+            #e74c3c 2px,
+            transparent 2px
+        );
+    padding: 3rem 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    margin: 2rem 0;
+    position: relative;
+}
+
+.blog-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 40px;
+    background: #d4af37;
+    border-radius: 10px 10px 0 0;
+}
+
+.blog-section h2 {
+    margin-top: 2rem;
+    font-family: 'Courier New', monospace;
+    color: #2c3e50;
+    text-align: left;
+    margin-left: 3rem;
+}
+
 .blog-posts {
     display: grid;
     gap: 2rem;
+    margin-left: 3rem;
+    margin-top: 2rem;
 }
 
 .blog-post {
-    border: 1px solid #ecf0f1;
-    padding: 1.5rem;
-    border-radius: 8px;
+    background: transparent;
+    padding: 1.5rem 0;
+    border: none;
+    border-radius: 0;
+    line-height: 26px;
+}
+
+.blog-post h3 {
+    font-family: 'Courier New', monospace;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
 }
 
 .blog-post h3 a {
@@ -589,6 +642,13 @@ body {
     color: #7f8c8d;
     font-size: 0.9rem;
     margin-bottom: 0.5rem;
+    font-family: 'Courier New', monospace;
+}
+
+.post-excerpt {
+    font-family: 'Courier New', monospace;
+    color: #34495e;
+    line-height: 26px;
 }
 
 .library-categories {
@@ -662,28 +722,76 @@ body {
 
 .blog-post-full {
     max-width: 800px;
-    margin: 0 auto;
+    margin: 2rem auto;
+    background: linear-gradient(to bottom, #f7f3e9 0%, #f0ebe0 100%);
+    background-image: 
+        repeating-linear-gradient(
+            transparent,
+            transparent 24px,
+            rgba(212, 175, 55, 0.3) 24px,
+            rgba(212, 175, 55, 0.3) 26px
+        ),
+        linear-gradient(
+            90deg,
+            #e74c3c 0px,
+            #e74c3c 2px,
+            transparent 2px
+        );
+    padding: 3rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    position: relative;
+}
+
+.blog-post-full::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 40px;
+    background: #d4af37;
+    border-radius: 10px 10px 0 0;
 }
 
 .post-header {
-    text-align: center;
+    text-align: left;
     margin-bottom: 2rem;
+    margin-top: 2rem;
+    margin-left: 3rem;
     padding-bottom: 1rem;
-    border-bottom: 1px solid #ecf0f1;
+    border-bottom: none;
 }
 
 .post-header h1 {
     color: #2c3e50;
     margin-bottom: 1rem;
+    font-family: 'Courier New', monospace;
+    font-size: 1.8rem;
 }
 
 .post-content {
     font-size: 1.1rem;
-    line-height: 1.8;
+    line-height: 26px;
+    margin-left: 3rem;
+    font-family: 'Courier New', monospace;
+    color: #2c3e50;
 }
 
 .post-content p {
     margin-bottom: 1.5rem;
+}
+
+.post-content h2 {
+    font-family: 'Courier New', monospace;
+    color: #2c3e50;
+    margin: 2rem 0 1rem 0;
+    font-size: 1.3rem;
+}
+
+.post-footer {
+    margin-left: 3rem;
+    margin-top: 2rem;
 }
 
 @media (max-width: 768px) {
@@ -726,6 +834,18 @@ body {
     
     .work-grid {
         grid-template-columns: 1fr;
+    }
+    
+    .blog-section h2,
+    .blog-posts,
+    .post-header,
+    .post-content,
+    .post-footer {
+        margin-left: 1rem;
+    }
+    
+    .blog-post-full {
+        padding: 2rem 1rem;
     }
     
     .hero-buttons {
