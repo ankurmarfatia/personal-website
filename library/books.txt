@@ -1,0 +1,75 @@
+Title: What the CEO Wants You to Know
+Author: Ram Charan
+Description: Distills the essence of business into four principles—customers, cash generation, return on invested capital, and growth. Helps employees make better decisions and contribute more effectively.
+
+Title: Think and Grow Rich
+Author: Napoleon Hill
+Description: Outlines 13 principles for achieving success and wealth, emphasizing desire, faith, persistence, and goal-setting.
+
+Title: How to Win Friends and Influence People
+Author: Dale Carnegie
+Description: Teaches techniques for effective communication, relationship-building, and leadership to improve social skills and influence.
+
+Title: The 7 Habits of Highly Effective People
+Author: Stephen R. Covey
+Description: Presents a principle-centered approach to personal and professional effectiveness through seven transformative habits.
+
+Title: Scrum: The Art of Doing Twice the Work in Half the Time
+Author: Jeff Sutherland and J.J. Sutherland
+Description: Introduces Scrum, a framework for team productivity emphasizing iterative progress, collaboration, and adaptability.
+
+Title: The Phoenix Project
+Author: Gene Kim, Kevin Behr, George Spafford
+Description: A business novel exploring how DevOps can transform IT and drive business success through the story of a struggling IT department.
+
+Title: Accelerate: The Science of Lean Software and DevOps
+Author: Nicole Forsgren, Jez Humble, Gene Kim
+Description: Reveals key capabilities that drive software delivery performance using DevOps and lean practices based on scientific research.
+
+Title: Critical Chain
+Author: Eliyahu M. Goldratt
+Description: Introduces the Critical Chain method of project management through a business novel applying the Theory of Constraints.
+
+Title: It's Not Luck
+Author: Eliyahu M. Goldratt
+Description: A sequel to The Goal, applying TOC thinking processes to solve complex business problems in marketing and strategy.
+
+Title: The Goal
+Author: Eliyahu M. Goldratt, Jeff Cox
+Description: A business novel introducing the Theory of Constraints through the story of a plant manager improving productivity.
+
+Title: Good to Great
+Author: Jim Collins
+Description: Explores why some companies transition from good to great, identifying principles like Level 5 Leadership and the Flywheel Effect.
+
+Title: Grit: The Power of Passion and Perseverance
+Author: Angela Duckworth
+Description: Argues that success is driven more by grit—passion and perseverance—than by talent, and explains how to cultivate it.
+
+Title: Crucial Conversations: Tools for Talking When Stakes Are High
+Author: Kerry Patterson, Joseph Grenny, Ron McMillan, Al Switzler
+Description: Provides tools for navigating high-stakes conversations with confidence, fostering dialogue and reducing conflict.
+
+Title: QBQ! The Question Behind the Question
+Author: John G. Miller
+Description: Focuses on personal accountability by teaching how to ask better, action-oriented questions to drive change.
+
+Title: Self Unfoldment
+Author: Swami Chinmayananda
+Description: A spiritual guide rooted in Vedanta philosophy, offering practical wisdom for self-discovery and transformation.
+
+Title: Ahead in the Cloud
+Author: Stephen Orban
+Description: A guide for enterprise leaders navigating digital transformation through cloud computing and cultural shifts.
+
+Title: Men Are from Mars, Women Are from Venus
+Author: John Gray
+Description: Explains how men and women differ in communication and emotional needs to improve relationships and reduce conflict.
+
+Title: Superbosses: How Exceptional Leaders Master the Flow of Talent
+Author: Sydney Finkelstein
+Description: Profiles leaders who develop top talent by fostering innovation, mentoring, and empowering others.
+
+Title: Leadership Lessons from a UPS Driver
+Author: Ron Wallace
+Description: Shares leadership insights from a UPS executive focused on teamwork, humility, and a 'we, not me' culture.

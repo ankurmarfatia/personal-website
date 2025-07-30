@@ -10,6 +10,7 @@
     <header>
         <nav class="navbar">
             <div class="nav-brand">
+                <img src="images/profile.jpeg" alt="Ankur Marfatia" class="nav-profile-img">
                 <h1>Ankur Marfatia</h1>
             </div>
             <button class="nav-toggle" onclick="toggleMenu()">☰</button>
@@ -26,39 +27,178 @@
 
     <main class="container">
         <section class="library-section">
-            <h2>My Library</h2>
-            <p>A collection of books, articles, and resources that have influenced my thinking and work.</p>
+            <h2>📚 My Library</h2>
             
-            <div class="library-categories">
-                <div class="category">
-                    <h3>Currently Reading</h3>
-                    <div class="book-item">
-                        <h4>Book Title</h4>
-                        <p>Author Name</p>
-                        <p class="book-description">Brief description or your thoughts on the book...</p>
-                    </div>
+            <div class="books-grid">
+                <div class="book-card">
+                    <a href="https://amazon.com/dp/0609608398" target="_blank">
+                        <img src="images/library/what-ceo-wants.jpg" alt="What the CEO Wants You to Know" class="book-image">
+                        <div class="book-title">What the CEO Wants You to Know</div>
+                        <div class="book-author">Ram Charan</div>
+                    </a>
+                    <div class="book-description">Distills the essence of business into four principles—customers, cash generation, return on invested capital, and growth. Helps employees make better decisions and contribute more effectively.</div>
                 </div>
-
-                <div class="category">
-                    <h3>Recommended Books</h3>
-                    <div class="book-item">
-                        <h4>Book Title</h4>
-                        <p>Author Name</p>
-                        <p class="book-description">Why you recommend this book...</p>
-                    </div>
-                    <div class="book-item">
-                        <h4>Another Book Title</h4>
-                        <p>Author Name</p>
-                        <p class="book-description">Your recommendation and key takeaways...</p>
-                    </div>
+                
+                <div class="book-card">
+                    <a href="https://amazon.com/dp/1585424331" target="_blank">
+                        <img src="images/library/think-grow-rich.jpg" alt="Think and Grow Rich" class="book-image">
+                        <div class="book-title">Think and Grow Rich</div>
+                        <div class="book-author">Napoleon Hill</div>
+                    </a>
+                    <div class="book-description">Outlines 13 principles for achieving success and wealth, emphasizing desire, faith, persistence, and goal-setting.</div>
                 </div>
-
-                <div class="category">
-                    <h3>Useful Resources</h3>
-                    <div class="resource-item">
-                        <h4><a href="#" target="_blank">Resource Title</a></h4>
-                        <p>Description of the resource and why it's valuable...</p>
-                    </div>
+                
+                <div class="book-card">
+                    <a href="https://amazon.com/dp/0671027034" target="_blank">
+                        <img src="images/library/win-friends.jpg" alt="How to Win Friends and Influence People" class="book-image">
+                        <div class="book-title">How to Win Friends and Influence People</div>
+                        <div class="book-author">Dale Carnegie</div>
+                    </a>
+                    <div class="book-description">Teaches techniques for effective communication, relationship-building, and leadership to improve social skills and influence.</div>
+                </div>
+                
+                <div class="book-card">
+                    <a href="https://amazon.com/dp/1982137274" target="_blank">
+                        <img src="images/library/7-habits.jpg" alt="The 7 Habits of Highly Effective People" class="book-image">
+                        <div class="book-title">The 7 Habits of Highly Effective People</div>
+                        <div class="book-author">Stephen R. Covey</div>
+                    </a>
+                    <div class="book-description">Presents a principle-centered approach to personal and professional effectiveness through seven transformative habits.</div>
+                </div>
+                
+                <div class="book-card">
+                    <a href="https://amazon.com/dp/038534645X" target="_blank">
+                        <img src="images/library/scrum.jpg" alt="Scrum: The Art of Doing Twice the Work in Half the Time" class="book-image">
+                        <div class="book-title">Scrum: The Art of Doing Twice the Work in Half the Time</div>
+                        <div class="book-author">Jeff Sutherland and J.J. Sutherland</div>
+                    </a>
+                    <div class="book-description">Introduces Scrum, a framework for team productivity emphasizing iterative progress, collaboration, and adaptability.</div>
+                </div>
+                
+                <div class="book-card">
+                    <a href="https://amazon.com/dp/1942788290" target="_blank">
+                        <img src="images/library/phoenix-project.jpg" alt="The Phoenix Project" class="book-image">
+                        <div class="book-title">The Phoenix Project</div>
+                        <div class="book-author">Gene Kim, Kevin Behr, George Spafford</div>
+                    </a>
+                    <div class="book-description">A business novel exploring how DevOps can transform IT and drive business success through the story of a struggling IT department.</div>
+                </div>
+                
+                <div class="book-card">
+                    <a href="https://amazon.com/dp/1942788339" target="_blank">
+                        <img src="images/library/accelerate.jpg" alt="Accelerate: The Science of Lean Software and DevOps" class="book-image">
+                        <div class="book-title">Accelerate: The Science of Lean Software and DevOps</div>
+                        <div class="book-author">Nicole Forsgren, Jez Humble, Gene Kim</div>
+                    </a>
+                    <div class="book-description">Reveals key capabilities that drive software delivery performance using DevOps and lean practices based on scientific research.</div>
+                </div>
+                
+                <div class="book-card">
+                    <a href="https://amazon.com/dp/0884271536" target="_blank">
+                        <img src="images/library/critical-chain.jpg" alt="Critical Chain" class="book-image">
+                        <div class="book-title">Critical Chain</div>
+                        <div class="book-author">Eliyahu M. Goldratt</div>
+                    </a>
+                    <div class="book-description">Introduces the Critical Chain method of project management through a business novel applying the Theory of Constraints.</div>
+                </div>
+                
+                <div class="book-card">
+                    <a href="https://amazon.com/dp/0884271447" target="_blank">
+                        <img src="images/library/not-luck.jpg" alt="It's Not Luck" class="book-image">
+                        <div class="book-title">It's Not Luck</div>
+                        <div class="book-author">Eliyahu M. Goldratt</div>
+                    </a>
+                    <div class="book-description">A sequel to The Goal, applying TOC thinking processes to solve complex business problems in marketing and strategy.</div>
+                </div>
+                
+                <div class="book-card">
+                    <a href="https://amazon.com/dp/0884270610" target="_blank">
+                        <img src="images/library/the-goal.jpg" alt="The Goal" class="book-image">
+                        <div class="book-title">The Goal</div>
+                        <div class="book-author">Eliyahu M. Goldratt, Jeff Cox</div>
+                    </a>
+                    <div class="book-description">A business novel introducing the Theory of Constraints through the story of a plant manager improving productivity.</div>
+                </div>
+                
+                <div class="book-card">
+                    <a href="https://amazon.com/dp/0066620996" target="_blank">
+                        <img src="images/library/good-to-great.jpg" alt="Good to Great" class="book-image">
+                        <div class="book-title">Good to Great</div>
+                        <div class="book-author">Jim Collins</div>
+                    </a>
+                    <div class="book-description">Explores why some companies transition from good to great, identifying principles like Level 5 Leadership and the Flywheel Effect.</div>
+                </div>
+                
+                <div class="book-card">
+                    <a href="https://amazon.com/dp/1501111116" target="_blank">
+                        <img src="images/library/grit.jpg" alt="Grit: The Power of Passion and Perseverance" class="book-image">
+                        <div class="book-title">Grit: The Power of Passion and Perseverance</div>
+                        <div class="book-author">Angela Duckworth</div>
+                    </a>
+                    <div class="book-description">Argues that success is driven more by grit—passion and perseverance—than by talent, and explains how to cultivate it.</div>
+                </div>
+                
+                <div class="book-card">
+                    <a href="https://amazon.com/dp/0071775307" target="_blank">
+                        <img src="images/library/crucial-conversations.jpg" alt="Crucial Conversations" class="book-image">
+                        <div class="book-title">Crucial Conversations: Tools for Talking When Stakes Are High</div>
+                        <div class="book-author">Kerry Patterson, Joseph Grenny, Ron McMillan, Al Switzler</div>
+                    </a>
+                    <div class="book-description">Provides tools for navigating high-stakes conversations with confidence, fostering dialogue and reducing conflict.</div>
+                </div>
+                
+                <div class="book-card">
+                    <a href="https://amazon.com/dp/0399152334" target="_blank">
+                        <img src="images/library/qbq.jpg" alt="QBQ! The Question Behind the Question" class="book-image">
+                        <div class="book-title">QBQ! The Question Behind the Question</div>
+                        <div class="book-author">John G. Miller</div>
+                    </a>
+                    <div class="book-description">Focuses on personal accountability by teaching how to ask better, action-oriented questions to drive change.</div>
+                </div>
+                
+                <div class="book-card">
+                    <a href="https://amazon.com/dp/1880687046" target="_blank">
+                        <img src="images/library/self-unfoldment.jpg" alt="Self Unfoldment" class="book-image">
+                        <div class="book-title">Self Unfoldment</div>
+                        <div class="book-author">Swami Chinmayananda</div>
+                    </a>
+                    <div class="book-description">A spiritual guide rooted in Vedanta philosophy, offering practical wisdom for self-discovery and transformation.</div>
+                </div>
+                
+                <div class="book-card">
+                    <a href="https://amazon.com/dp/1981924310" target="_blank">
+                        <img src="images/library/ahead-cloud.jpg" alt="Ahead in the Cloud" class="book-image">
+                        <div class="book-title">Ahead in the Cloud</div>
+                        <div class="book-author">Stephen Orban</div>
+                    </a>
+                    <div class="book-description">A guide for enterprise leaders navigating digital transformation through cloud computing and cultural shifts.</div>
+                </div>
+                
+                <div class="book-card">
+                    <a href="https://amazon.com/dp/0060574216" target="_blank">
+                        <img src="images/library/mars-venus.jpg" alt="Men Are from Mars, Women Are from Venus" class="book-image">
+                        <div class="book-title">Men Are from Mars, Women Are from Venus</div>
+                        <div class="book-author">John Gray</div>
+                    </a>
+                    <div class="book-description">Explains how men and women differ in communication and emotional needs to improve relationships and reduce conflict.</div>
+                </div>
+                
+                <div class="book-card">
+                    <a href="https://amazon.com/dp/1591847834" target="_blank">
+                        <img src="images/library/superbosses.jpg" alt="Superbosses" class="book-image">
+                        <div class="book-title">Superbosses: How Exceptional Leaders Master the Flow of Talent</div>
+                        <div class="book-author">Sydney Finkelstein</div>
+                    </a>
+                    <div class="book-description">Profiles leaders who develop top talent by fostering innovation, mentoring, and empowering others.</div>
+                </div>
+                
+                <div class="book-card">
+                    <a href="https://amazon.com/dp/1626566887" target="_blank">
+                        <img src="images/library/ups-driver.jpg" alt="Leadership Lessons from a UPS Driver" class="book-image">
+                        <div class="book-title">Leadership Lessons from a UPS Driver</div>
+                        <div class="book-author">Ron Wallace</div>
+                    </a>
+                    <div class="book-description">Shares leadership insights from a UPS executive focused on teamwork, humility, and a 'we, not me' culture.</div>
                 </div>
             </div>
         </section>
