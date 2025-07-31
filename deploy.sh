@@ -5,7 +5,7 @@
 
 STACK_NAME=${1:-"personal-website-pipeline"}
 GITHUB_REPO=${2:-"ankurmarfatia/personal-website"}
-BUCKET_NAME=${3:-"ankur-marfatia-website"}
+BUCKET_NAME=${3:-"www.ankurmarfatia.com"}
 
 echo "Deploying CodePipeline stack: $STACK_NAME"
 echo "GitHub Repository: $GITHUB_REPO"
