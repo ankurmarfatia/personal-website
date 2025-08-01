@@ -37,6 +37,17 @@
                     <div class="book-description">${book.description}</div>
                 `;
                 
+                const bookImage = bookCard.querySelector('.book-image');
+                const description = bookCard.querySelector('.book-description');
+                
+                bookImage.addEventListener('mouseenter', () => {
+                    description.style.display = 'block';
+                });
+                
+                bookImage.addEventListener('mouseleave', () => {
+                    description.style.display = 'none';
+                });
+                
                 booksGrid.appendChild(bookCard);
             });
         });
