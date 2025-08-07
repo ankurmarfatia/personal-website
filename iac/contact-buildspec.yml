@@ -14,7 +14,7 @@ phases:
       - cd iac
       - cp -r ../lambdas .
       - sam build --template contact-lambda-template.yaml
-      - sam deploy --no-confirm-changeset --no-fail-on-empty-changeset --stack-name contact-lambda-stack --capabilities CAPABILITY_IAM --region $AWS_DEFAULT_REGION
+      - sam deploy --no-confirm-changeset --no-fail-on-empty-changeset --stack-name contact-lambda-stack --capabilities CAPABILITY_IAM --region $AWS_DEFAULT_REGION --resolve-s3
   post_build:
     commands:
       - echo Build completed on `date`
