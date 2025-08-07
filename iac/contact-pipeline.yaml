@@ -45,7 +45,7 @@ Resources:
       Source:
         Type: GITHUB
         Location: https://github.com/ankurmarfatia/personal-website
-        BuildSpec: contact-buildspec.yml
+        BuildSpec: iac/contact-buildspec.yml
 
 Outputs:
   BuildProjectName:
