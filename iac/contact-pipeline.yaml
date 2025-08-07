@@ -28,6 +28,7 @@ Resources:
                   - apigateway:*
                   - iam:*
                   - ses:*
+                  - s3:*
                 Resource: '*'
 
   # CodeBuild Project

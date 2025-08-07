@@ -13,8 +13,9 @@ phases:
       - echo Build started on `date`
       - cd iac
       - cp -r ../lambdas .
+      - aws s3 mb s3://contact-lambda-deployment-bucket-$AWS_ACCOUNT_ID || echo "Bucket exists"
       - sam build --template contact-lambda-template.yaml
-      - sam deploy --no-confirm-changeset --no-fail-on-empty-changeset --stack-name contact-lambda-stack --capabilities CAPABILITY_IAM --region $AWS_DEFAULT_REGION --resolve-s3
+      - sam deploy --no-confirm-changeset --no-fail-on-empty-changeset --stack-name contact-lambda-stack --capabilities CAPABILITY_IAM --region $AWS_DEFAULT_REGION --s3-bucket contact-lambda-deployment-bucket-$AWS_ACCOUNT_ID
   post_build:
     commands:
       - echo Build completed on `date`
