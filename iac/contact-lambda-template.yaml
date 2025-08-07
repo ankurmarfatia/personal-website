@@ -10,7 +10,7 @@ Resources:
       FunctionName: contact-handler
       Runtime: nodejs18.x
       Handler: contact-handler.handler
-      CodeUri: ../lambdas/
+      CodeUri: lambdas/
       Policies:
         - SESCrudPolicy:
             IdentityName: asmarfatia@gmail.com
