@@ -145,5 +145,19 @@ const books = [
         image: "images/library/parenting.jpg",
         link: "https://amzn.to/46CTUyy",
         description: "In this insightful guide, Stiffelman explores how parenting can be a path to personal growth. She encourages mindfulness and emotional attunement, showing how everyday challenges with children can become opportunities for self-awareness and deeper connection. The book blends practical strategies with reflective exercises to help parents nurture both their children and themselves"
+    },
+    {
+        title: "Rich Dad Poor Dad",
+        author: "Robert T. Kiyosaki",
+        image: "images/library/rich_poor.jpg",
+        link: "https://amzn.to/41u43Km",
+        description: "'Rich Dad Poor Dad' by Robert T. Kiyosaki is a personal finance classic that contrasts two different mindsets about money and investing. The 'Rich Dad' represents Kiyosaki’s friend’s father, a savvy investor and entrepreneur, while the 'Poor Dad' is his biological father, a well-educated man who struggled financially. It’s written in a conversational style and aims to inspire readers to rethink how they earn, spend, and invest money."
+    },
+    {
+        title: "The Little Book of Value Investing",
+        author: "Christopher H. Browne",
+        image: "images/library/value_investing.jpg",
+        link: "https://amzn.to/4mvLldI",
+        description: "'The Little Book of Value Investing” teaches everyday investors how to buy undervalued stocks with a margin of safety and hold them for long-term gains."
     }
 ];

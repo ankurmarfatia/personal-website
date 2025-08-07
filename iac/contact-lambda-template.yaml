@@ -1,0 +1,31 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: 'Contact form Lambda with API Gateway and SES integration'
+
+Resources:
+  # Lambda Function
+  ContactFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      FunctionName: contact-handler
+      Runtime: nodejs18.x
+      Handler: contact-handler.handler
+      CodeUri: ../lambdas/
+      Policies:
+        - SESCrudPolicy:
+            IdentityName: asmarfatia@gmail.com
+      Events:
+        ContactApi:
+          Type: Api
+          Properties:
+            Path: /contact
+            Method: post
+            Cors:
+              AllowMethods: "'POST,OPTIONS'"
+              AllowHeaders: "'Content-Type'"
+              AllowOrigin: "'*'"
+
+Outputs:
+  ContactApiUrl:
+    Description: 'API Gateway endpoint URL for contact form'
+    Value: !Sub 'https://${ServerlessRestApi}.execute-api.${AWS::Region}.amazonaws.com/Prod/contact'

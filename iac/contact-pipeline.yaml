@@ -1,0 +1,53 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: 'Pipeline for Contact Lambda deployment'
+
+Resources:
+  # CodeBuild Role
+  ContactCodeBuildRole:
+    Type: AWS::IAM::Role
+    Properties:
+      AssumeRolePolicyDocument:
+        Version: '2012-10-17'
+        Statement:
+          - Effect: Allow
+            Principal:
+              Service: codebuild.amazonaws.com
+            Action: sts:AssumeRole
+      Policies:
+        - PolicyName: ContactCodeBuildPolicy
+          PolicyDocument:
+            Version: '2012-10-17'
+            Statement:
+              - Effect: Allow
+                Action:
+                  - logs:CreateLogGroup
+                  - logs:CreateLogStream
+                  - logs:PutLogEvents
+                  - cloudformation:*
+                  - lambda:*
+                  - apigateway:*
+                  - iam:*
+                  - ses:*
+                Resource: '*'
+
+  # CodeBuild Project
+  ContactBuildProject:
+    Type: AWS::CodeBuild::Project
+    Properties:
+      Name: contact-lambda-build
+      ServiceRole: !GetAtt ContactCodeBuildRole.Arn
+      Artifacts:
+        Type: NO_ARTIFACTS
+      Environment:
+        Type: LINUX_CONTAINER
+        ComputeType: BUILD_GENERAL1_SMALL
+        Image: aws/codebuild/amazonlinux2-x86_64-standard:3.0
+      Source:
+        Type: GITHUB
+        Location: https://github.com/ankurmarfatia/personal-website
+        BuildSpec: contact-buildspec.yml
+
+Outputs:
+  BuildProjectName:
+    Description: 'CodeBuild project name'
+    Value: !Ref ContactBuildProject
