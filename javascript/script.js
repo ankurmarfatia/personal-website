@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
-// Contact form handling (basic client-side validation)
+/* Contact form handling (basic client-side validation)
 document.addEventListener('DOMContentLoaded', function() {
     const contactForm = document.querySelector('.contact-form');
     if (contactForm) {
@@ -23,4 +23,4 @@ document.addEventListener('DOMContentLoaded', function() {
             alert('Thank you for your message! This is a demo form. In a real implementation, you would integrate with a backend service or email service.');
         });
     }
-});
+});*/

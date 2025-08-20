@@ -21,7 +21,7 @@ exports.handler = async (event) => {
                 Data: `Contact Form: ${subject}`
             }
         },
-        Source: 'asmarfatia@gmail.com' // Must be verified in SES
+        Source: 'asmarfatia@ankurmarfatia.com' // Must be verified in SES
     };
     
     try {
@@ -36,12 +36,13 @@ exports.handler = async (event) => {
             body: JSON.stringify({ message: 'Email sent successfully' })
         };
     } catch (error) {
+        console.error('Contact form error:', error);
         return {
             statusCode: 500,
             headers: {
                 'Access-Control-Allow-Origin': '*'
             },
-            body: JSON.stringify({ error: 'Failed to send email' })
+            body: JSON.stringify({ error: 'Failed to send email', details: error.message })
         };
     }
 };
