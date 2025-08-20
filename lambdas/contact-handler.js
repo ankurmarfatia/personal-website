@@ -21,7 +21,7 @@ exports.handler = async (event) => {
                 Data: `Contact Form: ${subject}`
             }
         },
-        Source: 'asmarfatia@ankurmarfatia.com' // Must be verified in SES
+        Source: 'asmarfatia@gmail.com' // Must be verified in SES
     };
     
     try {

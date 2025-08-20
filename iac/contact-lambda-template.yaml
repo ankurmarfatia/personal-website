@@ -13,7 +13,7 @@ Resources:
       CodeUri: lambdas/
       Policies:
         - SESCrudPolicy:
-            IdentityName: asmarfatia@gmail.com
+            IdentityName: "*"
       Events:
         ContactApi:
           Type: Api
